@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+      <!--code for Form-->
+      <form action="">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter your Name" maxlength="25" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" value="text@example.com" required autofocus><br><br>
+            <label for="pswrd">Password:</label>
+            <input type="password" name="pswrd" id="pswrd" minlength="6" required><br><br>
+            <label for="category">Category:</label>
+            <select name="category" id="category" required>
+                <option value="Student">Student</option>
+                <option value="Employee">Employee</option>
+                <option value="Freelancer"selected>Freelancer</option>
+            </select><br><br>
+            <label for="date">Event Date:</label>
+            <input type="date" name="date" id="date" required><br><br>
+            <label for="tckt">Ticket:</label>
+            <input type="radio" name="ticket" id="ticket" required>1
+            <input type="radio" name="ticket" id="ticket" required checked>2
+            <input type="radio" name="ticket" id="ticket" required>3 <br><br>
+            <label for="online">Onlinepayment:</label>
+            <input type="checkbox" name="payment" id="online"><br><br>
+            <label for="notes">Notes:</label>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Notes"></textarea><br><br>
+            <input type="submit" value="submit">
+      </form>
+</body>
+</html>
